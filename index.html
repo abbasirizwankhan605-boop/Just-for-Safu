@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Safiya 💙</title>
+
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:"Trebuchet MS",Arial,sans-serif;
+  color:#24558b;
+  background:linear-gradient(180deg,#c6e7ff,#eff9ff,#d8efff);
+  overflow-x:hidden;
+}
+nav{
+  position:sticky;top:0;z-index:5;
+  background:#ffffffdf;
+  backdrop-filter:blur(10px);
+  padding:14px 8px;
+  text-align:center;
+}
+nav a{
+  display:inline-block;
+  margin:5px 7px;
+  color:#2465a7;
+  text-decoration:none;
+  font-size:13px;
+  font-weight:bold;
+}
+.hero{
+  min-height:460px;
+  padding:65px 18px;
+  text-align:center;
+  background:linear-gradient(180deg,#91ceff,#e8f7ff);
+  position:relative;
+  overflow:hidden;
+}
+.hero h1{
+  font-family:"Brush Script MT",cursive;
+  font-size:clamp(48px,12vw,76px);
+  line-height:1.1;
+  margin:12px 0;
+  color:#175b9e;
+}
+.hero p{line-height:1.9}
+.cloud{
+  position:absolute;
+  font-size:75px;
+  opacity:.6;
+  animation:floatCloud 5s ease-in-out infinite alternate;
+}
+.c1{top:20px;left:-5px}
+.c2{bottom:15px;right:0;animation-delay:1s}
+@keyframes floatCloud{
+  to{transform:translateX(18px)}
+}
+.btn{
+  display:inline-block;
+  border:0;
+  border-radius:30px;
+  padding:13px 23px;
+  background:linear-gradient(135deg,#55adf5,#347bd0);
+  color:white;
+  font-size:15px;
+  font-weight:bold;
+  text-decoration:none;
+  cursor:pointer;
+  box-shadow:0 5px 15px #3985c544;
+  transition:.2s;
+}
+.btn:active{transform:scale(.96)}
+section{padding:38px 16px;max-width:1000px;margin:auto}
+.title{text-align:center;font-size:27px;margin:0 0 22px}
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:16px;
+}
+.card{
+  background:#ffffffdc;
+  border:1px solid white;
+  border-radius:23px;
+  padding:23px;
+  box-shadow:0 7px 24px #5499cb18;
+}
+.card h3{color:#2777bd;margin-top:8px}
+.card p{line-height:1.8;font-size:14px}
+.emoji{font-size:36px}
+#surprise{text-align:center;background:#d6edff;border-radius:25px}
+#secret{
+  display:none;
+  margin:22px auto 0;
+  max-width:500px;
+  padding:24px;
+  border-radius:22px;
+  background:white;
+  line-height:1.9;
+  animation:appear .5s ease;
+}
+@keyframes appear{
+  from{opacity:0;transform:translateY(12px)}
+  to{opacity:1;transform:translateY(0)}
+}
+footer{
+  text-align:center;
+  padding:38px 15px 50px;
+  background:linear-gradient(#d9efff,#a8d8ff);
+  line-height:2;
+}
+.floating{
+  position:fixed;
+  bottom:-35px;
+  z-index:10;
+  pointer-events:none;
+  animation:rise 5s linear forwards;
+}
+@keyframes rise{
+  to{transform:translateY(-110vh) rotate(35deg);opacity:0}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <a href="#home">💙 Home</a>
+  <a href="#story">Our Story</a>
+  <a href="#notes">Love Notes</a>
+  <a href="#surprise">🎁 Surprise</a>
+</nav>
+
+<header class="hero" id="home">
+  <span class="cloud c1">☁️</span>
+  <span class="cloud c2">☁️</span>
+  <div style="font-size:38px">🦋 💙 🦋</div>
+  <h1>My Love,<br>Safiya ♡</h1>
+  <p>
+    You make ordinary moments feel magical. 💙<br>
+    This little corner of the internet is made<br>
+    with love, just for you.
+  </p>
+  <a class="btn" href="#story">Explore Our Story ↓</a>
+</header>
+
+<section id="story">
+  <h2 class="title">💌 Our Little Story</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="emoji">💙</div>
+      <h3>From Friends to Love</h3>
+      <p>
+        From a little Snapchat request to friendship,
+        from best friends to something special...
+        I'm happy our paths crossed, Safiya. 🦋
+      </p>
+    </div>
+    <div class="card">
+      <div class="emoji">🌸</div>
+      <h3>My Favourite Person</h3>
+      <p>
+        Your smile can make a normal day brighter.
+        I hope I always give you reasons to smile
+        and feel appreciated.
+      </p>
+    </div>
+    <div class="card">
+      <div class="emoji">✨</div>
+      <h3>Our Journey</h3>
+      <p>
+        Every relationship grows with trust,
+        understanding and kindness. Let's keep
+        making beautiful memories together.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="notes">
+  <h2 class="title">💌 Little Love Notes</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="emoji">☀️</div>
+      <h3>For Your Smile</h3>
+      <p>Your smile makes everything feel a little brighter. Never forget how special you are.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🦋</div>
+      <h3>For Your Heart</h3>
+      <p>You deserve happiness, kindness, respect and someone who listens to you.</p>
+    </div>
+    <div class="card">
+      <div class="emoji">🤭</div>
+      <h3>My Cute Sherni</h3>
+      <p>Sometimes you're a Sherni, sometimes my choti bacchi. You always make me smile! 💙</p>
+    </div>
+  </div>
+</section>
+
+<section id="surprise">
+  <h2 class="title">🎁 A Little Surprise</h2>
+  <p>Safiya, a little message is waiting just for you...</p>
+  <button class="btn" onclick="openGift()">Open Your Gift 💙</button>
+
+  <div id="secret">
+    <div style="font-size:44px">💙🦋💌</div>
+    <h2>Dear Safiya ♡</h2>
+    <p>
+      You are someone very special to me.
+      Thank you for the smiles, conversations
+      and little moments we share.
+    </p>
+    <p>
+      I hope we keep laughing, growing and
+      understanding each other. Even on difficult
+      days, let's remember to talk with kindness
+      and treat each other with respect.
+    </p>
+    <h3>You're my favourite person. 💙</h3>
+    <p>Made with lots of love, just for you. ♡</p>
+  </div>
+</section>
+
+<footer>
+  <div style="font-size:38px">☁️ 💙 🦋 💙 ☁️</div>
+  <h2 style="font-family:'Brush Script MT',cursive;font-size:38px">
+    Forever & Always ♡
+  </h2>
+  <p>Some people make life more beautiful...</p>
+  <p><b>For my favourite person, Safiya 💙</b></p>
+  <div style="font-size:20px">Made with love ♡</div>
+  <small>Just for Safu 💙</small>
+</footer>
+
+<script>
+function openGift(){
+  const box=document.getElementById("secret");
+  const hidden=getComputedStyle(box).display==="none";
+  box.style.display=hidden?"block":"none";
+
+  if(hidden){
+    box.scrollIntoView({behavior:"smooth",block:"center"});
+    for(let i=0;i<18;i++){
+      setTimeout(makeHeart,i*100);
+    }
+  }
+}
+
+function makeHeart(){
+  const el=document.createElement("div");
+  el.className="floating";
+  el.textContent=["💙","🦋","💕","✨"][Math.floor(Math.random()*4)];
+  el.style.left=Math.random()*95+"vw";
+  el.style.fontSize=(18+Math.random()*22)+"px";
+  el.style.animationDuration=(3+Math.random()*3)+"s";
+  document.body.appendChild(el);
+  setTimeout(()=>el.remove(),6000);
+}
+
+setInterval(()=>{
+  if(Math.random()>.45)makeHeart();
+},1600);
+</script>
+
+</body>
+</html>
